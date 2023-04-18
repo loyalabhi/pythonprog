@@ -107,13 +107,6 @@ a=int(input("Enter 1st number : "))
 b=int(input("Enter 2nd number : "))
 c=int(input("Enter 3rd number : "))
 
-if(a==b):
-    print("a=",a," and ","b=",b," are equal ")
-elif(a==c):
-    print("a=",a," and ","c=",c," are equal ")
-elif(b==c):
-        print("b=",b," and ","c=",c," are equal ")
-
 if(a>b):
     if(a>c):
         print(a)
@@ -124,6 +117,13 @@ else:
         print( b)
     else :
         print(c)
+
+if(a==b):
+    print("a=",a," and ","b=",b," are equal ")
+elif(a==c):
+    print("a=",a," and ","c=",c," are equal ")
+elif(b==c):
+        print("b=",b," and ","c=",c," are equal ")
 
 
 
